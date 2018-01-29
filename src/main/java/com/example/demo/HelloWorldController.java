@@ -10,4 +10,17 @@ public class HelloWorldController {
     public String index() {
         return "welcome";
     }
+
+    /**
+     * @Author: Administrator
+     * @Description: 测试是否关联上git
+     * @param: null
+     * @Date: 09:28 2018/1/29 0029
+     * @return:
+     * @throws:
+     */
+    @RequestMapping("/test")
+    public String test() {
+        return "welcome";
+    }
 }
